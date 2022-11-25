@@ -41,7 +41,7 @@ function MarketingStrategires() {
                   return (
                       <div className='border border-primary p-5 flex flex-col space-y-10 mt-4 transform hover:scale-95 duration-100'>
                           <h1 className="mx-20 sm:mx-5 text-center -mt-8 bg-white border-primary border text-2xl rounded text-secondary py-2">{item.title}</h1>
-                          <img src={item.image} alt="" />
+                          <img className='h-24 w-24 text-center' src={item.image} alt="" />
                           <p className='text-gray-600 text-md'>{ item.description}</p>
                       </div>
                   )
